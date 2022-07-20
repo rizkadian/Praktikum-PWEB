@@ -1,0 +1,132 @@
+.tombol {
+	text-decoration: none;
+	color: black;
+}
+.tombol:hover{
+	color: #2e86c1;
+}
+.garis {
+	border-bottom-width: 3px;
+	border-top-width: 3px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: #2874a6;
+}
+.kotak {
+	margin: 20px;
+	box-shadow: 0px 0px 8px #c9c9c9;
+	background-color: white;
+}
+.judul2 {
+	padding: 5px;
+	width: 330px;
+	border-color: #2874a6;
+	text-align: left;
+	background-color: #f8f9f9;
+	border-style: solid;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 5px;
+}
+.input {
+	width: 70%;
+	padding: 10px;
+	border: none;
+	margin-left: 43px;
+	margin-top: 20px;
+	border-bottom: 2px solid #2e86c1;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.input::placeholder {
+	color: #808080;
+	font-size: 15px;
+	font-family: ms reference sans serif;
+}
+.kotaktahap {
+	margin: 20px;
+	box-shadow: 0px 0px 8px #c9c9c9;
+	background-color: #EAECEE;
+	color: black;
+}
+.kotaktahap:hover{
+	background: #1F618D;
+	color: white;
+}
+.kotakpen {
+	margin: 20px;
+	box-shadow: 0px 0px 8px #c9c9c9;
+	background-color: #A9DFBF;
+	border-radius: 25px;
+}
+.kotakpen:hover{
+	background: #229954;
+}
+.tombolpen {
+	text-decoration: none;
+	color: black;
+}
+.tombolpen:hover{
+	color: white;
+}
+.login{
+	padding: 10px 70px;
+	border-radius: 25px;
+	margin-left: 75px;
+	margin-Top: 50px;
+	margin-Bottom: 15px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(30deg, #3498db, #1b2631);
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+.login:hover {
+	background: #2e86c1;
+}
+.bodylogin{
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	margin: auto;
+	background: white;
+	box-shadow: 0px 0px 8px #c9c9c9;
+}
+.bodyinput{
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	width: 75%;
+	border: 1px solid #ddd;
+}
+.bodyinput:focus{
+	border-color: #07ACEC;
+	outline: none;
+}
+.nama{
+	font-family: corbel;
+	font-size: initial;
+	padding: 5px;
+	margin: 5px;
+}
+.daftar{
+	padding: 10px 70px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(30deg, #3498db, #1b2631);
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+}
+.daftar:hover {
+	background: #2e86c1;
+}
+.tabell{
+	color: black;
+	background: #f4f6f7;
+	border: #7b7d7d 1px solid;
+}
